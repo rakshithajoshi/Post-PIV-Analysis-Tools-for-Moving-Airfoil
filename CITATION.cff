@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this toolkit in your research, please cite it using the metadata below."
+authors:
+  - given-names: "Rakshitha Ulhas"
+    family-names: "Joshi"
+    affiliation: "Indian Institute of Science, Bengaluru"
+    affiliation-url: "https://www.iisc.ac.in"
+    email: "rakshitaj@iisc.ac.in"
+title: "Post PIV Analysis Tools for Moving Airfoil"
+date-released: 2026-08-27
+abstract: |
+This repository contains MATLAB scripts for post-processing PIV velocity fields obtained using PIVlab for a moving airfoil. Here, the image frame/space is fixed and the airfoil moves through camera frames. The airfoil moves in a circular arc. The code can be used to determine the velocity fields relative to the airfoil's trailing edge.
+repository-code: "https://github.com/your-username/Post-PIV-Analysis-Tools-for-Moving-Airfoil"
+keywords:
+  - "Particle Image Velocimetry"
+  - "PIV"
+  - "Airfoil"
+  - "MATLAB"
+  - "Self-Propulsion
+  - "Fluid Mechanics"
+  - "Moving Object Analysis"
+license: PolyForm Noncommercial License 1.0.0
