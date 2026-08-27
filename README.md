@@ -18,17 +18,21 @@ The end result is the average velocity and fluxes with respect to the airfoil co
   ```
   
 2. Load
-   - MATLAB** (tested on R2020a+)
+   - **MATLAB** (tested on R2020a+)
    - **PIVlab** (for initial PIV processing)
    - **Image Processing Toolbox** (MATLAB)
      
-3. Inputs:
-   - PIVlab velocity fields (`.mat` files)
-   - Mean path of the airfoil
-   - The location of the trailing edge along the mean path must also be determined from the raw PIV images.
-   - Experimental parameters (pitching point, frequency, amplitude, trial number)
+3. Prerequisites:
+   - PIVlab velocity fields (`.mat` files) in workspace
+   - Mean path of the airfoil stored in `.dat` file
+   - The location of the trailing edge in `.dat` file
+     
+5. Instructions:
+   - Run Post-PIV-Analysis-Tools-for-Moving-Airfoil.m
+   - Input experimental parameters (pitching point, frequency, amplitude, trial number)
+   - It will fetch data from mean path of the airfoil and the location of the trailing edge. 
     
-4. Output:
+6. Output:
    - Average velocity and fluxes with respect to the airfoil coordinate system.
 
 ## References
@@ -41,6 +45,6 @@ The end result is the average velocity and fluxes with respect to the airfoil co
 
 If you use this toolkit in your research, please cite it as follows:
 
-> Rakshitha U. Joshi, Indian Institute of Science, Bengaluru (IISc). (2024). *Post PIV Analysis Tools for Moving Airfoil*
+> Joshi, R. U. (2026). Post PIV Analysis Tools for Moving Airfoil [Computer software]. https://github.com/rakshithajoshi/Post-PIV-Analysis-Tools-for-Moving-Airfoil
 
 ###
